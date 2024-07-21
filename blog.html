@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+    <!------------------------ Navbar --------------------->
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Our Certificate and Online Programs</h1>
+
+    </section>
+
+
+
+<!----------------- Blog Page Content ----------------->
+
+
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate.jpg">
+            <h2>Our Certificate and Online Programs</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, vel est amet maxime doloremque pariatur eum alias excepturi! Nisi id ad ab doloremque laborum tempora culpa quas laudantium quibusdam non rerum ducimus eveniet nostrum, asperiores, ipsum consequuntur nulla totam! Amet, eligendi illum sed, officiis quam iste molestias aperiam voluptatibus odio ad quod consequuntur perspiciatis quaerat laudantium ut. Numquam, autem eos?</p>
+            <br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit consequatur, tempore quaerat vitae nihil eos maxime adipisci. Tempore alias, in atque amet placeat quam nesciunt ullam dolorem impedit autem esse earum facilis qui tenetur minima mollitia doloremque nobis minus quaerat omnis aut recusandae. Ea similique doloribus aliquid at architecto rerum ipsum facere nesciunt repudiandae vitae amet, assumenda nemo qui voluptatibus placeat? Praesentium, natus maiores et quod alias saepe, dolorem quasi molestias, doloribus perspiciatis sunt odit eligendi quaerat! Ipsa aut ducimus accusantium repudiandae tenetur corrupti odio ut ratione soluta! Cumque dolores aspernatur illum, beatae temporibus maxime, similique quam eligendi quisquam ipsa consequatur dolorem porro cupiditate, alias eum nam perf.</p>
+            <br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit consequatur, tempore quaerat vitae nihil eos maxime adipisci. Tempore alias, in atque amet placeat quam nesciunt ullam dolorem impedit autem esse earum facilis qui tenetur minima mollitia doloremque nobis minus quaerat omnis aut recusandae. Ea similique doloribus a.</p>
+            <br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit consequatur, tempore quaerat vitae nihil eos maxime adipisci. Tempore alias, in atque amet placeat quam nesciunt ullam dolorem impedit autem esse earum facilis qui tenetur minima mollitia doloremque nobis minus quaerat omnis aut recusandae. Ea similique doloribus aliquid at architecto rerum ipsum facere nesciunt repudiandae vitae amet, assumenda nemo qui voluptatibus placeat? Praesentium, natus maiores et quod alias saepe, dolorem quasi molestias, doloribus perspiciatis sunt odit eligendi quaerat! Ipsa aut ducimus accusantium repudiandae tenetu.</p>
+
+            <div class="comment-box">
+                <h3>Leave a Comment</h3>
+
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+
+
+
+
+
+
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>AutoCAD</span>
+                <span>42</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>22</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>30</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-------------------- Footer ----------------->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis unde reprehenderit modi, velit
+            eaque earum! Minima dolore atque unde officiis <br>vel veritatis magnam nam, labore earum qui reiciendis
+            esse ea. Officiis vero distinctio exercitationem aperiam! Similique deserunt.</p>
+
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa-solid fa-heart"></i> by Abhrasnata Ray</p>
+    </section>
+
+
+
+    <!-- Java Script code for Toggle Menu -->
+
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+
+</html>
