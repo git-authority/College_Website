@@ -28,28 +28,56 @@
             <i class="fa-solid fa-bars" onclick="showMenu()"></i>
         </nav>
 
-        <h1>About Us</h1>
+        <h1>Contact Us</h1>
 
     </section>
 
 
-<!-------------- About Us Content ---------------->
+<!-------------- Contact Us ----------------->
 
-    <section class="about-us">
 
-        <div class="row">
-            <div class="about-col">
-                <h1>We are the World's Largest University</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quibusdam corporis esse! Eum maiores autem exercitationem at quo omnis fugit dicta corrupti rerum totam, quidem earum, iure beatae dolor neque? Non libero, atque magni deleniti dignissimos sequi consectetur repellat nostrum placeat magnam facere. Quae provident deserunt, soluta repudiandae rem consectetur, culpa nulla eum vel ipsam, consequuntur animi quidem. Ipsa, corrupti.</p>
-                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13427.259390569707!2d88.37122669531915!3d22.68800078896087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1721550308432!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa-solid fa-house"></i>
+                <span>
+                    <h5>45B Lake Road, Panihati, Kolkata</h5>
+                    <p>India</p>
+                </span>
             </div>
-            <div class="about-col">
-                <img src="images/about.jpg">
+            <div>
+                <i class="fa-solid fa-phone"></i>
+                <span>
+                    <h5>+91 9876543210</h5>
+                    <p>Monday - Saturday, 10AM to 6PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa-solid fa-envelope"></i>
+                <span>
+                    <h5>eduford@gmail.com</h5>
+                    <p>Email us your query.</p>
+                </span>
             </div>
         </div>
 
-    </section>
+        <div class="contact-col">
+            <form action="form-handler.php" method="post">
+                <input type="text" name="name" placeholder="Enter Your Name" required>
+                <input type="email" name="email" placeholder="Enter Your Email Address" required>
+                <input type="text" name="subject" placeholder="Enter Your Subject" required>
+                <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+        </div>
 
+    </div>
+</section>
 
 <!-------------------- Footer ----------------->
 
